@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Antoine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="ressources.html">Ressources</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2>Me laisser un message</h2>
+            <p>N’hésitez pas à me contacter via ce formulaire, je vous répondrai rapidement.</p>
+        </section>
+
+        <section>
+            <form action="https://formspree.io/f/xwpozpqk" method="POST">
+                <label for="name">Votre nom :</label><br>
+                <input type="text" id="name" name="name" placeholder="Entrez votre nom" required><br>
+
+                <label for="email">Votre email :</label><br>
+                <input type="email" id="email" name="_replyto" placeholder="Entrez votre email" required><br>
+
+                <label for="message">Votre message :</label><br>
+                <textarea id="message" name="message" rows="5" placeholder="Écrivez votre message ici..."
+                    required></textarea><br>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Antoine Corrignan | Data Analyst </p>
+    </footer>
+
+</body>
+
+</html>

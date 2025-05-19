@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ressources — Antoine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Mes Ressources Data</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="ressources.html">Ressources</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section class="intro">
+            <h2>Cheat Sheets Python et SQL</h2>
+            <p>Voici quelques rappels et commandes utiles que j’utilise dans mes projets data.</p>
+        </section>
+
+        <section>
+            <h3>📌 Python — manipuler un DataFrame</h3>
+            <pre class="code-block">
+import pandas as pd
+
+# Charger un fichier CSV
+df = pd.read_csv('data.csv')
+
+# Afficher les 5 premières lignes
+print(df.head())
+
+# Infos générales
+print(df.info())
+
+# Sélectionner une colonne
+df['colonne']
+
+# Filtrer des lignes
+df[df['colonne'] > 10]
+            </pre>
+        </section>
+
+        <section>
+            <h3>📌 SQL — requêtes de base</h3>
+            <pre class="code-block">
+-- Sélectionner toutes les colonnes
+SELECT * FROM table;
+
+-- Sélectionner certaines colonnes
+SELECT nom, age FROM clients;
+
+-- Filtrer avec une condition
+SELECT * FROM commandes
+WHERE montant > 100;
+
+-- Trier par ordre décroissant
+SELECT * FROM produits
+ORDER BY prix DESC;
+            </pre>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2025 Antoine Corrignan | Data Analyst </p>
+    </footer>
+
+</body>
+
+</html>
