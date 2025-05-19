@@ -80,3 +80,93 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+
+/* Blocs de code façon cellules */
+.code-block {
+    background-color: #2d2d2d;
+    color: #f8f8f2;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: Consolas, monospace;
+    margin-bottom: 30px;
+}
+
+/* Titres dans les sections ressources */
+section h3 {
+    margin-top: 30px;
+    font-size: 1.4em;
+}
+
+/* Articles du blog */
+article {
+    background-color: #fdfdfd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+article h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.article-date {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+article p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+article ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+article ul li {
+    margin-bottom: 10px;
+}
+
+/* Page Contact */
+form {
+    background-color: #fdfdfd;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #004999;
+}
