@@ -1,0 +1,82 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* En-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #444;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #ddd;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #666;
+    color: #fff;
+}
+
+/* Contenu principal */
+.container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Section d'introduction */
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro img {
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Listes */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: #ddd;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
